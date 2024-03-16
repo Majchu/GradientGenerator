@@ -1,0 +1,62 @@
+:root {
+    --background-linear: linear-gradient(60deg, rgb(0, 0, 0), rgb(255, 255, 255));
+    /*--background-radial: radial-gradient();*/
+}
+body {
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+#container {
+    align-items: center;
+    display: inline-grid;
+    gap: 20px;
+    height: calc(100% + 50px);
+    justify-content: center;
+    width: 100%;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+}
+#background {
+    align-items: center;
+    background: var(--background-linear);
+    border: 2px solid;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    width: 700px;
+}
+#main-background {
+    height: calc(100% - 50px);
+    width: calc(100% - 50px);
+}
+.color {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    width: 100%;
+}
+#code {
+    align-items: center;
+    background: rgba(200, 200, 200, .5);
+    border: 2px solid;
+    display: flex;
+    height: 100px;
+    justify-content: start;
+    width: 700px;
+}
+#code-text {
+    font-size: 18px;
+    margin: 0 50px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Gradient Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Gradient Generator</h1>
+            <h2>Main</h2>
+            <div id="background">
+                <div id="main-background">
+                    <div class="color">
+                        <h3>Color 1</h3>
+                        <input id="color1" type="color" value="#000000">
+                        <input id="range1" type="range" value="0">
+                    </div>
+                    <div class="color">
+                        <h3>Color 2</h3>
+                        <input id="color2" type="color" value="#ffffff">
+                        <input id="range2" type="range" value="0">
+                    </div>
+                    <div class="color">
+                        <h3>Angle</h3>
+                        <input id="range2" type="range" value="60" min="0" max="360">
+                    </div>
+                </div>
+            </div>
+            <h2>Code</h2>
+            <div id="code">
+                <p id="code-text">background: </p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html
